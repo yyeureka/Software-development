@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/checkedtextview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingLeft="3dip"
+    android:paddingRight="3dip"
+    android:checked="false"
+    android:textColor="#000"
+    android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+    >
+</CheckedTextView>

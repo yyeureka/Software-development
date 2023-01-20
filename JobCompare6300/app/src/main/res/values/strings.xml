@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JobCompare6300</string>
+    <string name="compare_job_offers">Compare Job Offers</string>
+    <string name="list_header_text">Ranked from high to low</string>
+    <string name="current_job_notice">Current job denoted with \"<b>&gt;</b>\" symbol</string>
+    <string name="title_activity_detailed_jobs_comparison">Detailed Jobs Comparison</string>
+</resources>

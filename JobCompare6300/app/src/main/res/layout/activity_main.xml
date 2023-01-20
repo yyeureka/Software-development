@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="420dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mainTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#1976D2"
+                android:text="MainMenu"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/enterCurrentJobButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="eventHandler"
+            android:text="Enter Current Job Details" />
+
+        <Button
+            android:id="@+id/enterJobOffersButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="eventHandler"
+            android:text="Enter Job Offers" />
+
+        <Button
+            android:id="@+id/configureSettingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="eventHandler"
+            android:text="Configure Settings" />
+
+        <Button
+            android:id="@+id/compareJobOffersButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="eventHandler"
+            android:text="Compare Job Offers" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
