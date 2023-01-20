@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="520dp"
+        android:layout_marginTop="1dp"
+        android:background="#E5E6E6"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="394dp"
+            android:layout_height="72dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="230dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="none"
+                android:text="  Payload"
+                android:textAlignment="viewStart"
+                android:textColor="#5C5C5C" />
+
+            <EditText
+                android:id="@+id/payloadID"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="394dp"
+            android:layout_height="72dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="230dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="none"
+                android:text="  Arg Alpha"
+                android:textAlignment="viewStart"
+                android:textColor="#5C5C5C" />
+
+            <EditText
+                android:id="@+id/argAlphaID"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="394dp"
+            android:layout_height="72dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName8"
+                android:layout_width="230dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="none"
+                android:text="  Arg Beta"
+                android:textAlignment="viewStart"
+                android:textColor="#5C5C5C" />
+
+            <EditText
+                android:id="@+id/argBetaID"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/encipherButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#C5C3C3"
+                android:onClick="handleClick"
+                android:paddingHorizontal="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="ENCIPHER"
+                android:textAlignment="center"
+                android:textColor="#393838"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName10"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:background="@null"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="none"
+                android:text="Payload Enciphered"
+                android:textAlignment="center"
+                android:textColor="#151515" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/payloadEncipheredID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
